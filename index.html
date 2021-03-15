@@ -2,53 +2,96 @@
 <html>
 
 <head>
-  <title>Hello World</title>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>komalte's GutGub Page</title>
 </head>
 
 <body>
+  <div class="gradient-row"></div>
   <header>
-    <h1>Headline</h1>
-  </header>
-  <nav>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-  </nav>
-
-  <section>
-    <article>
-      <h3>headLine Article</h3>
-      <small>smaller headline</small>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut expedita quibusdam, perferendis vitae molestias
-        illum aliquid laboriosam facere, animi totam perspiciatis vel. Sequi, doloremque? Rerum amet sit et aut
-        tempora?</p>
-      <a href="bla.html">mehr...</a>
-    </article>
-
-    <article>
-      <h3>headLine Article2</h3>
-      <small>smaller headline2</small>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo inventore magni unde placeat natus, ad maxime
-        aliquam temporibus debitis, qui dolore ipsam iure consequuntur? Ipsam, doloremque. Neque quos nihil assumenda.</p>
-      <a href="bla.html">mehr...</a>
-    </article>
-
-  </section>
-
-  <aside>
-    <h3>Kategorien</h3>
+    <div class="logo-container">
+      <img class="svg" src="images/logo/LogoMakr-4lRJoJ.png" alt="">
+    </div>
     <nav>
-      <ul>
-        <li><a href="#">1</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">1</a></li>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="javascript:comingSoon()">home</a></li>
+        <li><a class="nav-link" href="javascript:comingSoon()">projects</a></li>
+        <li><a class="nav-link" href="javascript:comingSoon()">about</a></li>
       </ul>
     </nav>
-  </aside>
+  </header>
 
-  <footer>Hello Footer</footer>
+  <main>
+    <section class="welcome">
+      <div class="introduction">
+        <div class="intro-text">
+          <h1>Welcome</h1>
+          <p>You have found <b>my</b> github page.<br> So what is this all about?</p>
+        </div>
+        <div class="cta">
+          <button class="cta-about" onclick="javascript:comingSoon()">About myself</button>
+        </div>
+      </div>
+      <div class="cover">
+        <img src="./images/keyboard_light.jpg" alt="">
+      </div>
+    </section>
+
+   <section class="welcome">
+    <div class="cover">
+      <img src="./images/checklist with pen.jpg" alt="bild">
+    </div>
+    <div class="introduction">
+      <div class="intro-text">
+        <h1>Projects</h1>
+        <p>What did i achieve? <br>Did i finish any project?</p>
+      </div>
+      <div class="cta">
+        <button class="cta-projects" onclick="javascript:comingSoon()">Find out</button>
+      </div>
+    </div>    
+   </section>
+
+   <section class="welcome">    
+    <div class="introduction">
+      <div class="intro-text">
+        <h1>Follow me</h1>
+        <p>Find me on following plattforms</p>
+      </div>
+      <div class="follow-links">
+        <a href="https://www.facebook.com/malte.kocinski.79" target="_blank"><img src="./images/icons/icons8-facebook-50.png"></a>
+        <a href="https://github.com/komalte" target="_blank"><img src="./images/icons/icons8-github-50.png"></a>
+        <a href="https://www.instagram.com/komalte/" target="_blank"><img src="./images/icons/icons8-instagram-50.png"></a>
+        <a href="https://twitter.com/komalte1" target="_blank"><img src="./images/icons/icons8-twitter-50.png"></a>
+        <a href="https://www.xing.com/profile/Malte_Kocinski" target="_blank"><img src="./images/icons/icons8-xing-50.png"></a>
+      </div>
+    </div>    
+    <div class="cover">
+      <img src="./images/path.jpg" alt="bild">
+    </div>
+    
+   </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="copyright">
+      <h4>© 2021 💻 komalte</h4>
+      <h6>Free Icons used from <a href="https://icons8.com/" target="_blank">https://icons8.com/</a></h6>
+    </div>
+    <div class="gradient-footer"></div>
+    
+  </footer>
+
 </body>
+
+<script>
+  function comingSoon() {
+    alert("Still working on this. Come Back later. Sorry 😢");
+  }
+</script>
 
 </html>
