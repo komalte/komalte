@@ -36,13 +36,13 @@
         </div>
       </div>
       <div class="cover">
-        <img src="./images/keyboard_light.jpg" alt="">
+        <img class="lozad" src="./images/keyboard_light.jpg" alt="">
       </div>
     </section>
 
    <section class="welcome">
     <div class="cover cover-projects">
-      <img src="./images/checklist with pen.jpg" alt="bild">
+      <img class="lozad" src="./images/checklist with pen.jpg" alt="bild">
     </div>
     <div class="introduction">
       <div class="intro-text">
@@ -62,15 +62,15 @@
         <p>Find me on following plattforms</p>
       </div>
       <div class="follow-links">
-        <a href="https://www.facebook.com/malte.kocinski.79" target="_blank"><img src="./images/icons/icons8-facebook-50.png"></a>
-        <a href="https://github.com/komalte" target="_blank"><img src="./images/icons/icons8-github-50.png"></a>
-        <a href="https://www.instagram.com/komalte/" target="_blank"><img src="./images/icons/icons8-instagram-50.png"></a>
-        <a href="https://twitter.com/komalte1" target="_blank"><img src="./images/icons/icons8-twitter-50.png"></a>
-        <a href="https://www.xing.com/profile/Malte_Kocinski" target="_blank"><img src="./images/icons/icons8-xing-50.png"></a>
+        <a href="https://www.facebook.com/malte.kocinski.79" target="_blank"><img class="lozad" src="./images/icons/icons8-facebook-50.png"></a>
+        <a href="https://github.com/komalte" target="_blank"><img class="lozad" src="./images/icons/icons8-github-50.png"></a>
+        <a href="https://www.instagram.com/komalte/" target="_blank"><img class="lozad" src="./images/icons/icons8-instagram-50.png"></a>
+        <a href="https://twitter.com/komalte1" target="_blank"><img class="lozad" src="./images/icons/icons8-twitter-50.png"></a>
+        <a href="https://www.xing.com/profile/Malte_Kocinski" target="_blank"><img class="lozad" src="./images/icons/icons8-xing-50.png"></a>
       </div>
     </div>    
     <div class="cover">
-      <img src="./images/path.jpg" alt="bild">
+      <img class="lozad" src="./images/path.jpg" alt="bild">
     </div>
     
    </section>
@@ -86,7 +86,11 @@
 
 </body>
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <script>
+  const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+  observer.observe();
+
   function comingSoon() {
     alert("Still working on this. Come Back later. Sorry 😢");
   }

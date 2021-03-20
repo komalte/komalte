@@ -17,13 +17,6 @@ body {
     text-align: center;
 }
 
-.gradient-footer {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(95,95,121,0.30) 50%);
-    min-height: 1vh;
-    display: flex;
-}
-
 button {
     font-family: 'Poppins', sans-serif;
 }
