@@ -17,15 +17,115 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><a class="nav-link" href="javascript:comingSoon()">home</a></li>
-        <li><a class="nav-link" href="javascript:comingSoon()">projects</a></li>
-        <li><a class="nav-link" href="javascript:comingSoon()">about</a></li>
+        <li><a class="nav-link" href="../index.html">home</a></li>
+        <li><a class="nav-link" href="/projects/">projects</a></li>
+        <li><a class="nav-link" href="/about/">about</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-      ABOUT!!
+    <section class="welcome">        
+        <div class="cover cover-headset">
+            <img class="lozad" data-src="../images/headset.jpg">
+        </div>
+        <div class="introduction"></div>
+            <div class="intro-text">
+              <h1>About Malte</h1>
+              <p>Hi, I'm a 30-something year old guy from Germany.</br>
+                I would describe myself as a Backend Developer (mostly Java) becoming* a Full-Stack Developer. 
+              </p>              
+              <p class="smallNote">*well, at least trying 😊</p>           
+            </div>            
+        </section>  
+
+
+    <section class="welcome">
+        <div class="introduction">
+            <div class="intro-text">
+              <h1>What i like</h1>
+              <ul>
+                  <li>programming 💻👨‍💻</li>
+                  <li>gaming 🎮🕹</li>
+                  <li>jogging 🏃‍♂️👟</li>
+                  <li>food 🍕🍔</li>
+                  <li>emojis & GIFs 😉👋</li>
+              </ul>
+            </div>            
+        </div>
+        <div class="cover">
+            <img class="lozad" data-src="../images/controller.webp" src="" alt="">
+        </div>
+    </section>
+
+    <section class="welcome">
+        <div class="introduction">
+            <div class="intro-text">
+              <h1>currently working on</h1>
+              <ul>
+                  <li>PS4
+                  <ul class="sublist">
+                    <li>Hitman 2 (2018), actually replaying Hitman-Levels within</li>
+                  </ul>
+                  </li>
+                  <li>Nintendo Switch 
+                      <ul class="sublist">
+                        <li>Descenders</li>
+                      </ul>
+                  </li>
+                  <li>PC
+                    <ul class="sublist">
+                        <li>Fights in Tight Spaces (Early Access)</li>
+                        <li>Gloomhaven (Early Access)</li>
+                        <li>Tom Clancy's The Division 2</li>
+                    </ul>
+                  </li>
+                  <li>Reading
+                      <ul class="sublist">
+                        <li> Lee Child - Personal / Im Visier</li>
+                      </ul>                                        
+                  
+              </ul>
+            </div>            
+        </div>
+        <div class="cover">
+            <img class="lozad" data-src="../images/jack reacher book.jpg" src="" alt="">
+        </div>
+    </section>
+
+
+    <section class="welcome">
+        <div class="introduction">
+            <div class="intro-text">
+              <h1>About this page</h1>
+              <p>Although this site is only a hobby project, i hope to update it quite regularly to show my progess.</p>
+              <p><b>Current Status</b></p>
+              <ul>
+                <li>Tech Stack: just HTML & Vanilla JS</li>
+                <li>IDE: VS Code</li>
+                <li>Static webpage, hosted on github</li>
+                <li>kinda responsive (i hope this site looks ok on your device)</li>
+                <li>all images (except the logo) load lazy (more on this soon) thanks to lozad</li>
+                <li>Logo created via https://logomakr.com/</li>
+                <li>Free icons from icons8.com/</li>
+                <li>Image optimization via https://tinyjpg.com/ & https://ezgif.com/optijpeg</li>
+              </ul>
+
+              <p><b>Coming soon?</b></p>
+              <ul>
+                <li>updates on projects page</li>
+                <li>Early-Access-Review on "Fights in tight spaces"</li>
+                <li>setup a webserver (maybe Node or Deno + express?)</li>
+                <li>Switch Stack to a template Engine (maybe handlebars?) </li>
+                <li>trying out some new stuff?</li>
+                <li>maybe fix responsive behavior?</li>
+              </ul>
+            </div>            
+        </div>
+        <div class="cover">
+            <img class="lozad" data-src="../images/keyboard laptop.jpg" src="" alt="">
+        </div>
+    </section>
   </main>
 
   <footer class="footer">
@@ -42,9 +142,6 @@
   const observer = lozad(); // lazy loads elements with default selector as '.lozad'
   observer.observe();
 
-  function comingSoon() {
-    alert("Still working on this. Come Back later. Sorry 😢");
-  }
 </script>
 
 </html>
