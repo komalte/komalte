@@ -18,8 +18,8 @@
     <nav>
       <ul class="nav-links">
         <li><a class="nav-link" href="index.html">home</a></li>
-        <li><a class="nav-link" href="javascript:comingSoon()">projects</a></li>
-        <li><a class="nav-link" href="/about/index.html">about</a></li>
+        <li><a class="nav-link" href="/projects">projects</a></li>
+        <li><a class="nav-link" href="/about">about</a></li>
       </ul>
     </nav>
   </header>
@@ -32,7 +32,7 @@
           <p>You have found <b>my</b> github page.<br> So what is this all about?</p>
         </div>
         <div class="cta">
-          <button class="cta-about" onclick="javascript:comingSoon()">About myself</button>
+          <button class="cta-about" onclick="window.location.href='/about'">About myself</button>
         </div>
       </div>
       <div class="cover">
@@ -50,7 +50,7 @@
         <p>What did i achieve? <br>Did i finish any project?</p>
       </div>
       <div class="cta">
-        <button class="cta-projects" onclick="javascript:comingSoon()">Find out</button>
+        <button class="cta-projects" onclick="window.location.href='/projects'">Find out</button>
       </div>
     </div>    
    </section>
@@ -91,9 +91,7 @@
   const observer = lozad(); // lazy loads elements with default selector as '.lozad'
   observer.observe();
 
-  function comingSoon() {
-    alert("Still working on this. Come Back later. Sorry 😢");
-  }
+
 </script>
 
 </html>
